@@ -16,6 +16,10 @@
 .navbar{
     height: 60px;
 }
+.image{
+    margin: auto;
+    display: block;
+}
 .conteudo{
     margin-bottom: 30px;
 }
