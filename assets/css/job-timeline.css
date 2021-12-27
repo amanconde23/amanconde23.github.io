@@ -1,0 +1,93 @@
+.job-timeline {
+  margin-bottom: 40px;
+}
+
+.job-timeline-title h2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+span.job-label {
+  font-family: Acme, sans-serif;
+  font-size: 1.6rem;
+  color: var(--grey);
+  padding: 8px;
+  border-radius: 10px;
+  background-color: var(--light-blue);
+}
+
+.content p {
+  margin-top: 18px;
+  font-size: 1.7rem;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: var(--grey);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.job-description-box {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.job-description-box::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: var(--light-blue);
+  border: 3px solid var(--grey);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.right::after {
+  left: -16px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+  .job-description-box {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 10px;
+  }
+  .job-description-box::before {
+    left: 60px;
+  }
+  .left::after, .right::after {
+    left: 15px;
+  }
+  .right {
+    left: 0%;
+  }
+  span.job-label {
+    font-size: 1.3rem;
+  }
+}

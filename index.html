@@ -1,160 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amanda Martinez - Informações</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amanda Martinez | Desenvolvedora Front-end</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/about-me.css">
+  <link rel="stylesheet" href="assets/css/tecnologies.css">
+  <link rel="stylesheet" href="assets/css/job-timeline.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
-                    <p class="logo">Amanda Martinez <span class="logo-span">| Desenvolvedora Web</span></p>
-                </a>
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-end">
-                    <a href="index.html" id="item-menu" class="navbar-item">Informações</a>
-                    <a href="habilidades.html" id="item-menu" class="navbar-item">Habilidades</a>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <header class="header-nav">
+    <div class="logo">
+      <h1>
+        Amanda Martinez 
+        <span class="logo-sub">
+          <span class="logo-bar">|</span> Desenvolvedora Front-End 
+        </span>
+      </h1>
+    </div>
+    <!-- <div class="menu">
+      <a href="" class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </a>
+      <div class="menu-links display-none">
+        <a class="menu-link" href="#about-me">Sobre mim</a>
+        <a class="menu-link" href="#tecnologies">Tecnologias</a>
+        <a class="menu-link" href="#job-timeline">Experiência</a>
+        <a class="menu-link" href="">Projetos</a>
+        <a class="menu-link" href="#contact-me">Entre em contato</a>
+      </div>
+    </div> -->
+  </header>
 
-    <!-- Main Content -->
-    <section class="conteudo">
-        <div class="container">
-            <div class="columns">
-                <!-- Coluna Foto e Resumo -->
-                <div class="column is-3">
-                    <article class="message is-light">
-                        <div class="message-header">
-                            <figure class="image">
-                                <img src="imagens/amanda.PNG" alt="">
-                            </figure>
-                        </div>
-                        <div class="message-body">
-                            <h5 id="espacamento-bottom" class="title is-5">Amanda Martinez</h5>
-                            <p id="espacamento-bottom" class="tag is-dark">Desenvolvedora Web</p>
-                            <h5 class="title is-5">Telefone</h5>
-                            <h5 class="subtitle is-6">(13)98164-4171</h5>
-                            <h5 class="title is-5">Email</h5>
-                            <h5  class="subtitle is-6"><a href="mailto:amanconde23@gmail.com">amanconde23@gmail.com</a></h5>
-                            <h5 class="title is-5">Github</h5>
-                            <h5 class="subtitle is-6"><a href="https://github.com/amanconde23" target="_blank"><i id="icone" class="fab fa-github fa-lg icone-espacamento"></i></a></h5>
-                            <h5 class="title is-5">Linkedin</h5>
-                            <h5 class="subtitle is-6"><a href="https://www.linkedin.com/in/amanda-conde-martinez/" target="_blank"><i id="icone" class="fab fa-linkedin fa-lg"></i></a></h5>
-                        </div>
-                    </article>
-                </div>
-
-                <!-- Coluna Informações -->
-                <div class="column">
-                    <!-- Sobre -->
-                    <article class="message is-light">
-                        <div class="message-header">
-                            <p>Sobre Mim</p>
-                        </div>
-                        <div class="message-body">
-                            <p>
-                                Amanda Conde Martinez, 29 anos, tecnóloga em Sistemas para a Internet na FATEC.
-                                Iniciei na área de desenvolvimento web em 2016, com freelances em Wordpress. Estou sempre em busca de aprimorar o aprendizado na área.
-                            </p>
-                        </div>
-                    </article>
-
-                    <!-- Experiência -->
-                    <article class="message is-light">
-                        <div class="message-header">
-                            <p>Experiência</p>
-                        </div>
-                        <div class="message-body">
-                            <div class="columns">
-                                <div class="column is-3">
-                                    <figure class="image is-128x128">
-                                        <img class="is-rounded" src="imagens/logo-editora.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="column">
-                                    <h5 class="title is-5">Estágio em Desenvolvimento Web | 2019-2020 <span class="tag is-dark">Editora Segmento</span></h5>
-                                    <p>
-                                        -Manutenção de sites em Wordpress<br>
-                                        -Desenvolvimento de Hotsites e Landing Pages (PHP) e Newsletters (HTML e CSS)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="message-body">
-                            <div class="columns">
-                                <div class="column is-3">
-                                    <figure class="image is-128x128">
-                                        <img class="is-rounded" src="imagens/freelance.jpg" alt="">
-                                    </figure>
-                                </div>
-                                <div class="column">
-                                    <h5 class="title is-5">Webdesign | 2016-2018 <span class="tag is-dark">Freelance</span></h5>
-                                    <p>Desenvolvimento de Websites e Lojas Virtuais com o CMS Wordpress</p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="message is-light">
-                        <div class="message-header">
-                            <p>Portfólio</p>
-                        </div>
-                        <div class="message-body">
-                            <a 
-                                href="https://drive.google.com/drive/folders/1jj6xUw2_Vlns1COCOUlP0Fq3ekvug3bW?usp=sharing"
-                                target="_blank"
-                                class="portfolio-btn"
-                            >
-                                Acessar Portfólio
-                            </a>
-                        </div>
-                    </article>
-
-                    <!-- Formação -->
-                    <article class="message is-light">
-                        <div class="message-header">
-                            <p>Formação</p>
-                        </div>
-                        <div class="message-body">
-                            <h5 class="title is-5">FATEC | Sistemas para Internet | 2017-2020</h5>
-                            <p>Curso tecnólogo, com foco em desenvolvimento de aplicações web.</p>
-                        </div>
-                        <div class="message-body">
-                            <h5 class="title is-5">SENAC | Técnico em Informática para Internet | 2015-2016</h5>
-                            <p>Manutenção e desenvolvimento sites e aplicações web.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
+  <section id="about-me" class="container">
+    <div class="about-me">
+      <div class="about-me-description">
+        <h2 class="about-me-title">
+          Sobre Mim
+        </h2>
+        <p class="about-me-text">
+          Tecnóloga em Sistemas para a Internet na FATEC.<br>
+          4 anos de atuação na área.
+        </p>
+      
+        <div class="about-me-contact">
+          <h2 class="about-me-title">
+            Entre em Contato
+          </h2>
+          <div class="about-me-contact-icons">
+            <a href="https://github.com/amanconde23" target="_blank">
+              <img class="about-me-contact-icon" src="assets/images/icons/icon_github.svg" alt="github" >
+            </a>
+            <a href="https://www.linkedin.com/in/amanda-conde-martinez/" target="_blank">
+              <img class="about-me-contact-icon" src="assets/images/icons/icon_linkedin.svg" alt="github" >
+            </a>
+            <a href="mailto:amanconde23@gmail.com" target="_blank">
+              <img class="about-me-contact-icon" src="assets/images/icons/icon_gmail.svg" alt="github" >
+            </a>
+            <a href="https://wa.me/5513981644171?text=Ola%20vi%20seu%20curriculo%20gostaria%20de%20entrar%20em%20contato" target="_blank">
+              <img class="about-me-contact-icon" src="assets/images/icons/icon_whatsapp.svg" alt="github" >
+            </a>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="content has-text-centered conteudo-rodape">
-            <p><strong>Desenvolvido por Amanda Martinez - 2020</strong></p><br>
-            <a href="https://github.com/amanconde23" target="_blank"><i id="icone" class="fab fa-github fa-lg"></i></a>
-            <a href="https://www.linkedin.com/in/amanda-conde-martinez/" target="_blank"><i id="icone" class="fab fa-linkedin fa-lg"></i></a>
+      <div class="about-me-hero-image">
+        <img class="hero-image" src="assets/images/image_apresentation_section.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="tecnologies" class="container">
+    <div class="tecnologies">
+      <div class="tecnologies-title">
+        <h2>
+          Tecnologias
+        </h2>
+      </div>
+      <div class="tecnologies-labels">
+        <img class="tecnology-label" src="assets/images/html-5-label.png" alt="html5">
+        <img class="tecnology-label" src="assets/images/css-3-label.png" alt="html5">
+        <img class="tecnology-label" src="assets/images/javascript-label.png" alt="html5">
+        <img class="tecnology-label" src="assets/images/php-label.png" alt="html5">
+        <img class="tecnology-label" src="assets/images/wordpress-label.png" alt="html5">
+      </div>
+    </div>
+  </section>
+
+  <section id="job-timeline" class="container">
+    <div class="job-timeline">
+      <div class="job-timeline-title">
+        <h2>
+          Histórico de Trabalho
+        </h2>
+      </div>
+      <div class="timeline">
+        <div class="job-description-box left">
+          <div class="content">
+            <h3>Gauge | Abril de 2021 - até o momento</h3> 
+
+            <span class="job-label">
+              Desenvolvedora Front-end jr.
+            </span>
+
+            <p>
+              -Manutenção de sites em Wordpress<br>
+              -Desenvolvimento de Landing Pages<br>
+              -Desenvolvimento de email-marketing (ferramenta: Marketing Cloud da Salesforce)
+            </p>
+          </div>
         </div>
-    </footer>
+        <div class="job-description-box right">
+          <div class="content">
+            <h3>Editora Segmento | 2019 - 2020</h3> 
 
-    <!-- Scripts -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+            <span class="job-label">
+              Estagiária
+            </span>
+
+            <p>
+              -Manutenção de sites em Wordpress<br>
+              -Desenvolvimento de Hotsites e Landing Pages (PHP) e Newsletters (ferramenta: All In Marketing Cloud)
+            </p>
+          </div>
+        </div>
+        <div class="job-description-box left">
+          <div class="content">
+            <h3>Webdesign | 2016 - 2018</h3> 
+
+            <span class="job-label">
+              Freelance
+            </span>
+
+            <p>
+              -Manutenção de sites em Wordpress<br>
+              -Desenvolvimento de Landing Pages
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact-me" class="footer">
+    <h4 class="footer-title">
+      Entre em Contato
+    </h4>
+    <div class="footer-social-icons">
+      <a href="https://github.com/amanconde23" target="_blank">
+        <img class="footer-social-icon" src="assets/images/icons/icon_github.svg" alt="github" >
+      </a>
+      <a href="https://www.linkedin.com/in/amanda-conde-martinez/" target="_blank">
+        <img class="footer-social-icon" src="assets/images/icons/icon_linkedin.svg" alt="github" >
+      </a>
+      <a href="mailto:amanconde23@gmail.com" target="_blank">
+        <img class="footer-social-icon" src="assets/images/icons/icon_gmail.svg" alt="github" >
+      </a>
+      <a href="https://wa.me/5513981644171?text=Ola%20vi%20seu%20curriculo%20gostaria%20de%20entrar%20em%20contato" target="_blank">
+        <img class="footer-social-icon" src="assets/images/icons/icon_whatsapp.svg" alt="github" >
+      </a>
+    </div>
+  </footer>
+  
+  <script src="https://use.fontawesome.com/7a60b6369c.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

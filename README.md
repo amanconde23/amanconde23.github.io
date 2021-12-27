@@ -1,1 +1,0 @@
-Portfólio desenvolvido em Html, Css, Javascript e Framework Bulma.
