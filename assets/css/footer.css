@@ -12,3 +12,15 @@ img.footer-social-icon {
   width: 38px;
   margin-right: 8px;
 }
+
+.img-copyright {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--light-grey);
+}
+
+.img-copyright a {
+  color: var(--grey);
+  text-decoration: none;
+  font-size: 6px;
+}
